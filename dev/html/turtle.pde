@@ -243,7 +243,14 @@ background(0,0,0);
   text("Game Over",100,250);
   fill(255,255,255);
   text(score,230,310);
-  
+	 fill(255,0,0);
+textSize(14);
+text("Real Sea Turtles don't have extra lives.",40,360);
+	  fill(255,255,255);
+text(" Every year hundreds of thousands of marine creatures die ",40,380);
+	 text(" They ingest and become entangled by plastic and other marine debris ",40,400);
+	 text(" Help us stop ocean pollution",40,420);
+   
 
 
 }
