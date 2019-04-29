@@ -6,52 +6,54 @@
     <link rel="stylesheet" href="styles/main.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <script src="./dist/jquery.ripples.js"></script>
-    <script>
-      $(document).ready(function() {
-        try {
-          $("body").ripples({
-            resolution: 512,
-            dropRadius: 20, //px
-            perturbance: 0.04
-          });
-          $("main").ripples({
-            resolution: 128,
-            dropRadius: 10, //px
-            perturbance: 0.04,
-            interactive: false
-          });
-        } catch (e) {
-          $(".error")
-            .show()
-            .text(e);
-        }
-
-        $(".js-ripples-disable").on("click", function() {
-          $("body, main").ripples("destroy");
-          $(this).hide();
-        });
-
-        $(".js-ripples-play").on("click", function() {
-          $("body, main").ripples("play");
-        });
-
-        $(".js-ripples-pause").on("click", function() {
-          $("body, main").ripples("pause");
-        });
-
-        // Automatic drops
-        setInterval(function() {
-          var $el = $("main");
-          var x = Math.random() * $el.outerWidth();
-          var y = Math.random() * $el.outerHeight();
-          var dropRadius = 20;
-          var strength = 0.04 + Math.random() * 0.04;
-
-          $el.ripples("drop", x, y, dropRadius, strength);
-        }, 400);
-      });
-    </script>
     <script type="text/javascript" src="processing.js"></script>
+    <!--
+      <script>
+        $(document).ready(function() {
+          try {
+            $("body").ripples({
+              resolution: 512,
+              dropRadius: 20, //px
+              perturbance: 0.04
+            });
+            $("main").ripples({
+              resolution: 128,
+              dropRadius: 10, //px
+              perturbance: 0.04,
+              interactive: false
+            });
+          } catch (e) {
+            $(".error")
+              .show()
+              .text(e);
+          }
+
+          $(".js-ripples-disable").on("click", function() {
+            $("body, main").ripples("destroy");
+            $(this).hide();
+          });
+
+          $(".js-ripples-play").on("click", function() {
+            $("body, main").ripples("play");
+          });
+
+          $(".js-ripples-pause").on("click", function() {
+            $("body, main").ripples("pause");
+          });
+
+          // Automatic drops
+          setInterval(function() {
+            var $el = $("main");
+            var x = Math.random() * $el.outerWidth();
+            var y = Math.random() * $el.outerHeight();
+            var dropRadius = 20;
+            var strength = 0.04 + Math.random() * 0.04;
+
+            $el.ripples("drop", x, y, dropRadius, strength);
+          }, 400);
+        });
+      </script>
+    -->
 
     <style>
       * {
@@ -215,7 +217,7 @@
     <div class="video-background">
       <div class="video-foreground">
         <iframe
-          src="https://youtube.com/embed/ArGfDo1xQuM?autoplay=1&controls=0&showinfo=0&autohide=1"
+          src="https://youtube.com/embed/ArGfDo1xQuM?autoplay=1&controls=0&showinfo=0&autohide=1&mute=1"
         >
         </iframe>
       </div>
