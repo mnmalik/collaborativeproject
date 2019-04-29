@@ -146,7 +146,7 @@ body {
   background-size: cover;
   background-position: 50% 0;
   height: 100%;
-  text-align: center;
+  text-align: left;
 }
 
 body:before {
@@ -157,6 +157,7 @@ body:before {
 }
 
 main {
+  text-align: left;
   display: inline-block;
   vertical-align: middle;
   /* background: url(img/bg.jpg); */
