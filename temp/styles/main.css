@@ -131,6 +131,7 @@ body p {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 body nav ul {
   list-style-type: none;
   margin: 0;
@@ -158,6 +159,8 @@ body nav li a:hover:not(.active) {
 body nav .active {
   background-color: #4CAF50;
 =======
+=======
+>>>>>>> 8739aa2b5d9d5d352f38b8b959081b205519a603
 * {
   margin: 0;
   padding: 0;
@@ -324,5 +327,8 @@ code {
   .vid-info .acronym {
     display: none;
   }
+<<<<<<< HEAD
+>>>>>>> 8739aa2b5d9d5d352f38b8b959081b205519a603
+=======
 >>>>>>> 8739aa2b5d9d5d352f38b8b959081b205519a603
 }
