@@ -118,12 +118,211 @@ table {
 
 body {
   padding: 100px;
-  color: #06f;
+  color: darkgreen;
+  background-color: whitesmoke;
 }
 
 body p {
+  background: floralwhite;
   border: 3px solid #66a3ff;
-  padding: 25px;
+  padding: 20px;
   text-align: center;
   line-height: 1.9;
+}
+
+<<<<<<< HEAD
+body nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+body nav li {
+  float: left;
+}
+
+body nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+body nav li a:hover:not(.active) {
+  background-color: #111;
+}
+
+body nav .active {
+  background-color: #4CAF50;
+=======
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  color: #fff;
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* background-image: url(https://www.teamunify.com/king/site-settings/background/underwater-blue_098890.jpg); */
+  background-color: black;
+  background-size: cover;
+  background-position: 50% 0;
+  height: 100%;
+  text-align: center;
+}
+
+body:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+main {
+  display: inline-block;
+  vertical-align: middle;
+  /* background: url(img/bg.jpg); */
+  padding: 100px;
+  max-width: 500px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-top: 6px;
+}
+
+p {
+  text-align: left;
+  margin-top: 20px;
+}
+
+a {
+  color: #ff6800;
+}
+
+pre {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.error {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #000;
+  color: #f00;
+  padding: 5px;
+  max-width: 50%;
+}
+
+button {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 0 0.8em;
+  line-height: 2em;
+  border: none;
+  background: #666;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 0.5em;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+  background: #888;
+}
+
+code {
+  font-size: 0.8em;
+  display: inline;
+}
+
+.disable {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.code-string {
+  color: #ec7600;
+}
+
+.code-cbracket {
+  font-weight: bold;
+}
+
+.code-number {
+  color: #ffcd22;
+}
+
+/*  youtube code below here*/
+* {
+  box-sizing: border-box;
+}
+
+.video-background {
+  background: #000;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -99;
+}
+
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+@media (min-aspect-ratio: 16 / 9) {
+  .video-foreground {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16 / 9) {
+  .video-foreground {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .vid-info {
+    width: 50%;
+    padding: 0.5rem;
+  }
+  .vid-info h1 {
+    margin-bottom: 0.2rem;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .vid-info .acronym {
+    display: none;
+  }
+>>>>>>> 8739aa2b5d9d5d352f38b8b959081b205519a603
 }
