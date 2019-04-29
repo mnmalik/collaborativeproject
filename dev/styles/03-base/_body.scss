@@ -1,7 +1,28 @@
 $color--main: #06f;
 $color--border: lighten($color--main, 20%);
 
+
+
 body {
+<<<<<<< HEAD
+<<<<<<< HEAD
+   padding: 100px;
+   color: darkgreen;
+   background-color: lightseagreen;
+
+   p {
+      background: floralwhite;
+      border: 3px solid $color--border;
+      padding: 20px;
+      text-align: center;
+      line-height: 1.9;
+   }
+   div{
+
+   }
+=======
+=======
+>>>>>>> 8739aa2b5d9d5d352f38b8b959081b205519a603
   padding: 100px;
   color: $color--main;
 
@@ -167,3 +188,4 @@ code {
     display: none;
   }
 }
+>>>>>>> 8739aa2b5d9d5d352f38b8b959081b205519a603
