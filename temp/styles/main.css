@@ -124,7 +124,7 @@ body div {
   color: black;
   background-color: white;
   opacity: 0.9;
-  padding: 15px;
+  padding: 5%;
   text-align: center;
   line-height: 1.9;
 }
@@ -327,6 +327,16 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  width: 100%;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  margin-left: 0 !important;
+  margin-right: 0;
+  left: 0%;
+  display: inline-block;
+  list-style-type: none;
+  right: 0%;
 }
 
 li {
@@ -339,6 +349,9 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  margin-left: 0 !important;
+  margin-right: 0;
+  width: 100%;
 }
 
 li a:hover {
@@ -354,22 +367,30 @@ h5,
 a {
   background-color: orange !important;
   margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 footer {
   padding-top: 10px;
   text-align: center;
+  width: 100%;
+  align-content: center;
 }
 
 html {
   height: 100%;
+  width: 100%;
 }
 
 .logo {
+  width: 100%;
   height: auto;
   margin-left: 10%;
   margin-right: 10%;
   max-width: 900px;
+  position: relative;
+  object-fit: cover;
   align-content: center !important;
   align-items: center !important;
   justify-content: center !important;
