@@ -3,18 +3,20 @@
   <head>
     <meta charset="utf-8" />
     <title>SeaOurFuture</title>
-    <link rel="stylesheet" href="styles/main.css"/>
+    <link rel="stylesheet" href="styles/main.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <script src="./dist/jquery.ripples.js"></script>
-    <script type="text/javascript" src="processing.js"></script>
+    <script src="processing.js"></script>
   </head>
-  <header> <img src = "./img/Untitled-1.png" alt = "logo" class="logo"/> </header>
+
   <body>
-  <!-- Background Video Settings -->
+    <header><img src="./img/Untitled-1.png" alt="logo" class="logo" /></header>
+    <!-- Background Video Settings -->
     <div class="video-background">
       <div class="video-foreground">
         <iframe
-          src="https://youtube.com/embed/ArGfDo1xQuM?autoplay=1&controls=0&showinfo=0&autohide=1&mute=1">
+          src="https://youtube.com/embed/ArGfDo1xQuM?autoplay=1&controls=0&showinfo=0&autohide=1&mute=1"
+        >
         </iframe>
       </div>
     </div>
@@ -28,85 +30,116 @@
       <li><a href="#organizations"> Donate</a></li>
     </ul>
 
-     <!-- SlideShow -->
-  <div class="slideshow-container">
-    <a id="home"></a>
-    <div class="mySlides fade">
-      <div class="numbertext"></div>
-      <img src="image1.png" alt="image1" style="width:100%">
-      <div class="text"> </div>
+    <!-- SlideShow -->
+    <div class="slideshow-container">
+      <a id="home"></a>
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="image1.png" alt="image1" style="width:100%" />
+        <div class="text"></div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="image7.jpg" alt="image7" style="width:100%" />
+        <div class="text"></div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
-    <div class="mySlides fade">
-      <div class="numbertext"></div>
-      <img src="image7.jpg" alt="image7" style="width:100%">
-      <div class="text"> </div>
+    <br />
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
     </div>
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-  </div>
-  <br>
-
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-  </div>
 
     <!-- SECTION ONE -->
     <div id="page1">
       <a id="SavetheOceans" class="smooth"></a>
 
       <h1>Help Save Our Oceans</h1>
-      <p> Ocean Pollution is a serious issue that is affecting our beaches, our
+      <p>
+        Ocean Pollution is a serious issue that is affecting our beaches, our
         oceans, ocean dwellers worldwide, and our own health. The Majority of
         these pollutants come from human activity on land and it’s our job to do
-        something about it.</p>
-          <h2>Types of Pollution</h2>
-          <h3> Chemical Pollution</h3>
-        <p> The majority of pollutants going into the ocean come from activities on land. Natural processes and human activities
-  along the coastlines and far inland affect the health of our ocean. One of the biggest sources is called nonpoint source
-  pollution, which occurs as a result of runoff. Nonpoint source pollution includes many small sources, like septic tanks,
-  cars, trucks, and boats, plus larger sources, such as farms, livestock ranches, and timber harvest areas. Pollution that
-  comes from a single source, like an oil or chemical spill, is known as point source pollution. Often these events have
-  large impacts, but fortunately, they occur less often. Discharge from faulty or damaged factories or water treatment
-  systems is also considered point source pollution. The oil and gas industry’s routine operations emit toxic by-products,
-  release high levels of greenhouse gases, and lead to thousands of spills in U.S. waters annually. That oil can linger
-  for decades and do irreversible damage to delicate marine ecosystems. Take the BP Deepwater Horizon offshore drilling
-  disaster in 2010, which spread millions of gallons of oil throughout the Gulf of Mexico. But even smaller spills pollute
-  the ocean (and the air) with long-lasting impacts. Even the most advanced cleanup efforts remove only a fraction of the oil,
-  and sometimes they use hazardous technologies. Chemical dispersants used in the largest spill response efforts—1.8
-  million gallons were released into the Gulf after the BP disaster—are dangerous pollutants themselves.
-</p>
-      <h3> Ocean Acidification</h3>
-      <p> Today’s seas absorb as much as a quarter of all man-made carbon emissions, which changes the pH of surface
-        waters and leads to acidification.  Ocean acidification causes changes to carbonate levels within the ocean offsetting
-        the ecosystem and endangering clams, corals, and oysters. Increased acidity levels also interfere with some creatures
-        ability to hunt or detect predators. This is felt in human societies as well. The billion-dollar American shellfish
-        industry helps support many coastal communities but has lost millions of dollars as a result of pollution resulting
-        in the loss of thousands of jobs</p>
+        something about it.
+      </p>
+      <h2>Types of Pollution</h2>
+      <h3>Chemical Pollution</h3>
+      <p>
+        The majority of pollutants going into the ocean come from activities on
+        land. Natural processes and human activities along the coastlines and
+        far inland affect the health of our ocean. One of the biggest sources is
+        called nonpoint source pollution, which occurs as a result of runoff.
+        Nonpoint source pollution includes many small sources, like septic
+        tanks, cars, trucks, and boats, plus larger sources, such as farms,
+        livestock ranches, and timber harvest areas. Pollution that comes from a
+        single source, like an oil or chemical spill, is known as point source
+        pollution. Often these events have large impacts, but fortunately, they
+        occur less often. Discharge from faulty or damaged factories or water
+        treatment systems is also considered point source pollution. The oil and
+        gas industry’s routine operations emit toxic by-products, release high
+        levels of greenhouse gases, and lead to thousands of spills in U.S.
+        waters annually. That oil can linger for decades and do irreversible
+        damage to delicate marine ecosystems. Take the BP Deepwater Horizon
+        offshore drilling disaster in 2010, which spread millions of gallons of
+        oil throughout the Gulf of Mexico. But even smaller spills pollute the
+        ocean (and the air) with long-lasting impacts. Even the most advanced
+        cleanup efforts remove only a fraction of the oil, and sometimes they
+        use hazardous technologies. Chemical dispersants used in the largest
+        spill response efforts—1.8 million gallons were released into the Gulf
+        after the BP disaster—are dangerous pollutants themselves.
+      </p>
+      <h3>Ocean Acidification</h3>
+      <p>
+        Today’s seas absorb as much as a quarter of all man-made carbon
+        emissions, which changes the pH of surface waters and leads to
+        acidification. Ocean acidification causes changes to carbonate levels
+        within the ocean offsetting the ecosystem and endangering clams, corals,
+        and oysters. Increased acidity levels also interfere with some creatures
+        ability to hunt or detect predators. This is felt in human societies as
+        well. The billion-dollar American shellfish industry helps support many
+        coastal communities but has lost millions of dollars as a result of
+        pollution resulting in the loss of thousands of jobs
+      </p>
 
-      <h3> Trash in the Ocean</h3>
-      <p> The majority of the garbage that enters the ocean each year is plastic—and here to stay. That’s because unlike
-        other trash, the single-use grocery bags, water bottles, drinking straws, and yogurt containers, among eight million
-        metric tons of the plastic items we toss (instead of recycle), won’t biodegrade. Instead, they can persist in the
-        environment for a millennium, polluting our beaches, entangling marine life, and getting ingested by fish and seabirds.
-        While some of this debris is dumped directly into the seas, an estimated 80 percent of marine litter makes its way
-        there gradually from land-based sources―including those far inland―via storm drains, sewers, and other routes.
-        Oil from boats, airplanes, cars, trucks, and even lawn mowers is also swimming in ocean waters. Chemical discharges
-        from factories, raw sewage overflow from water treatment systems, and stormwater and agricultural runoff add other
-        forms of marine-poisoning pollutants to the toxic brew.</p>
+      <h3>Trash in the Ocean</h3>
+      <p>
+        The majority of the garbage that enters the ocean each year is
+        plastic—and here to stay. That’s because unlike other trash, the
+        single-use grocery bags, water bottles, drinking straws, and yogurt
+        containers, among eight million metric tons of the plastic items we toss
+        (instead of recycle), won’t biodegrade. Instead, they can persist in the
+        environment for a millennium, polluting our beaches, entangling marine
+        life, and getting ingested by fish and seabirds. While some of this
+        debris is dumped directly into the seas, an estimated 80 percent of
+        marine litter makes its way there gradually from land-based
+        sources―including those far inland―via storm drains, sewers, and other
+        routes. Oil from boats, airplanes, cars, trucks, and even lawn mowers is
+        also swimming in ocean waters. Chemical discharges from factories, raw
+        sewage overflow from water treatment systems, and stormwater and
+        agricultural runoff add other forms of marine-poisoning pollutants to
+        the toxic brew.
+      </p>
 
-      <h3>  Ocean Noise </h3>
-      <p> Sound waves travel farther and faster in the sea’s dark depths than they do in the air, and many marine mammals
-        like whales and dolphins, in addition to fish and other sea creatures, rely on communication by sound to find food,
-        mate, and navigate. But an increasing barrage of human-generated ocean noise pollution is altering the underwater
-        acoustic landscape, harming—and even killing—marine species worldwide. in the hunt for offshore oil and gas,
-        ships equipped with high-powered air guns fire compressed air into the water every 10 to 12 seconds for weeks to
-        months on end. Traveling as far as 2,500 miles, these deafening seismic blasts disrupt foraging, mating, and
-        other vital behaviors of endangered whales. High-intensity sonar used by the U.S. Navy for testing and training
-        also causes a barrage of sound in underwater ecosystems. The underwater racket that results creates a kind of
-        “smog” that reaches nearly every corner of the ocean and shrinks the sensory range of marine wildlife.
+      <h3>Ocean Noise</h3>
+      <p>
+        Sound waves travel farther and faster in the sea’s dark depths than they
+        do in the air, and many marine mammals like whales and dolphins, in
+        addition to fish and other sea creatures, rely on communication by sound
+        to find food, mate, and navigate. But an increasing barrage of
+        human-generated ocean noise pollution is altering the underwater
+        acoustic landscape, harming—and even killing—marine species worldwide.
+        in the hunt for offshore oil and gas, ships equipped with high-powered
+        air guns fire compressed air into the water every 10 to 12 seconds for
+        weeks to months on end. Traveling as far as 2,500 miles, these deafening
+        seismic blasts disrupt foraging, mating, and other vital behaviors of
+        endangered whales. High-intensity sonar used by the U.S. Navy for
+        testing and training also causes a barrage of sound in underwater
+        ecosystems. The underwater racket that results creates a kind of “smog”
+        that reaches nearly every corner of the ocean and shrinks the sensory
+        range of marine wildlife.
       </p>
 
       <h1>What really happens to plastic when you throw it away</h1>
@@ -145,43 +178,41 @@
         well as other businesses and organizations that work to preserve our
         coasts and waters.
       </p>
-        <p>
-          Keep trash and chemicals out of storm drains, including pet waste.
-          Storm water flows into the sea, carrying pollutants which can lead to
-          beach closures.
-        </p>
-        <p>
-          Plant a native or drought-tolerant plant garden.
-          Native and drought-tolerant plants can help you reduce the use of
-          water and fertilizers.
-        </p>
-        <p>
-          Plant an organic garden.
-          Some chemical fertilizers and pesticides from lawns and gardens can
-          wash into the ocean and contribute to water quality issues.
-        </p>
-        <p>
-          Make your own mulch. Compost and use organic fertilizers only when
-          needed.
-        </p>
-        <p>
-          Recycle used motor oil. Don’t let motor oil spill on the ground
-          because rain will wash it into the storm water drains, and from there
-          out to the ocean, where it can harm or kill marine life. Find an
-          oil-recycling center near you.
-        </p>
-        <p>
-          Dispose of household cleaners properly.
-          Household cleaning products, paint, pesticides, fluorescent light
-          bulbs, and batteries pose a threat to water quality. Find more
-          information about free collection centers.
-        </p>
-        <p>
-          Check the labels of the personal care products.
-          Including face and body wash, toothpaste and more, and stop using
-          products containing polyethylene or polypropylene microbeads.
-          #BanTheBead
-        </p>
+      <p>
+        Keep trash and chemicals out of storm drains, including pet waste. Storm
+        water flows into the sea, carrying pollutants which can lead to beach
+        closures.
+      </p>
+      <p>
+        Plant a native or drought-tolerant plant garden. Native and
+        drought-tolerant plants can help you reduce the use of water and
+        fertilizers.
+      </p>
+      <p>
+        Plant an organic garden. Some chemical fertilizers and pesticides from
+        lawns and gardens can wash into the ocean and contribute to water
+        quality issues.
+      </p>
+      <p>
+        Make your own mulch. Compost and use organic fertilizers only when
+        needed.
+      </p>
+      <p>
+        Recycle used motor oil. Don’t let motor oil spill on the ground because
+        rain will wash it into the storm water drains, and from there out to the
+        ocean, where it can harm or kill marine life. Find an oil-recycling
+        center near you.
+      </p>
+      <p>
+        Dispose of household cleaners properly. Household cleaning products,
+        paint, pesticides, fluorescent light bulbs, and batteries pose a threat
+        to water quality. Find more information about free collection centers.
+      </p>
+      <p>
+        Check the labels of the personal care products. Including face and body
+        wash, toothpaste and more, and stop using products containing
+        polyethylene or polypropylene microbeads. #BanTheBead
+      </p>
     </div>
     <!-- PAGE 4 -->
     <div id="page4">
@@ -197,10 +228,22 @@
         <li><a href="https://oceanconservancy.org/"> Ocean Conservancy</a></li>
         <li><a href="https://ocean.si.edu/"> Smithsonian Ocean</a></li>
         <li><a href="https://plasticoceans.org/donate/"> Plastic Oceans</a></li>
-        <li><a href="https://www.theoceancleanup.com/support/"> The Ocean Cleanup</a></li>
+        <li>
+          <a href="https://www.theoceancleanup.com/support/">
+            The Ocean Cleanup</a
+          >
+        </li>
         <li><a href="https://oceana.org/"> Oceana</a></li>
-        <li><a href="https://marine-conservation.org/support-us/"> Marine Conservation</a></li>
-        <li><a href="https://www.oceanfdn.org/donate/support-ocean-foundation"> Ocean Foundation</a></li>
+        <li>
+          <a href="https://marine-conservation.org/support-us/">
+            Marine Conservation</a
+          >
+        </li>
+        <li>
+          <a href="https://www.oceanfdn.org/donate/support-ocean-foundation">
+            Ocean Foundation</a
+          >
+        </li>
         <li><a href="https://www.opsociety.org/">Oceanic Society</a></li>
       </ul>
     </footer>

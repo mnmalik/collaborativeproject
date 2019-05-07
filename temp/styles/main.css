@@ -346,6 +346,16 @@ li a:hover {
   text-decoration: line-through;
 }
 
+h2,
+h2,
+h3,
+h4,
+h5,
+a {
+  background-color: orange !important;
+  margin: 0;
+}
+
 footer {
   padding-top: 10px;
   text-align: center;
