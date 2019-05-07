@@ -120,72 +120,30 @@ body {
   padding: 10px;
 }
 
-body p {
-  border: 3px solid #66a3ff;
-  padding: 20px;
-  text-align: center;
-  line-height: 1.9;
-}
-
-body p {
+body div {
+  color: black;
+  background-color: white;
+  opacity: 0.9;
   padding: 25px;
   text-align: center;
   line-height: 1.9;
 }
 
-* {
-  margin: 0;
-  padding: 0;
+body h1 {
+  font-family: "American Typewriter";
+  size: 12px;
+  padding-top: 10px;
+  text-align: center;
 }
 
-html {
-  height: 100%;
+body h2 {
+  color: white;
 }
 
-pre {
-  text-align: left;
-  margin-top: 20px;
+body p {
+  text-decoration-color: black;
 }
 
-.error {
-  display: none;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  background: #000;
-  color: #f00;
-  padding: 5px;
-  max-width: 50%;
-}
-
-button:hover {
-  background: #888;
-}
-
-code {
-  font-size: 0.8em;
-  display: inline;
-}
-
-.disable {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-}
-
-.code-string {
-  color: #ec7600;
-}
-
-.code-cbracket {
-  font-weight: bold;
-}
-
-.code-number {
-  color: #ffcd22;
-}
-
-/*  youtube code below here*/
 * {
   box-sizing: border-box;
 }
@@ -245,7 +203,6 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
 }
 
 li {
@@ -254,12 +211,18 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: whitesmoke;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: #111;
+  color: navajowhite;
+  text-decoration: line-through;
+}
+
+footer {
+  padding-top: 10px;
+  text-align: center;
 }

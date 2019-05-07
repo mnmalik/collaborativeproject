@@ -3,69 +3,30 @@ $color--border: lighten($color--main, 20%);
 
 body {
   padding: 10px;
-
-  p {
-    border: 3px solid $color--border;
-    padding: 20px;
-    text-align: center;
-    line-height: 1.9;
-  }
-
-  p {
+  div {
+   // border: 1px solid $color--border;
+    color: black;
+    background-color: white; opacity: 0.9;
     padding: 25px;
     text-align: center;
     line-height: 1.9;
   }
+h1{
+  font-family: "American Typewriter";
+text
+  padding-top: 10px;
+  text-align: center;
 }
-* {
-  margin: 0;
-  padding: 0;
-}
-html {
-  height: 100%;
-}
+  h2{
+    color: white;
+  }
 
-pre {
-  text-align: left;
-  margin-top: 20px;
-}
+  p{
+    text-decoration-color: black;
+  }
 
-.error {
-  display: none;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  background: #000;
-  color: #f00;
-  padding: 5px;
-  max-width: 50%;
 }
-
-button:hover {
-  background: #888;
-}
-
-code {
-  font-size: 0.8em;
-  display: inline;
-}
-
-.disable {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-}
-
-.code-string {
-  color: #ec7600;
-}
-.code-cbracket {
-  font-weight: bold;
-}
-.code-number {
-  color: #ffcd22;
-}
-/*  youtube code below here*/
+//Video Settings
 * {
   box-sizing: border-box;
 }
@@ -79,6 +40,7 @@ code {
   z-index: -99;
 }
 .video-foreground,
+
 .video-background iframe {
   position: absolute;
   top: 0;
@@ -114,29 +76,40 @@ code {
     display: none;
   }
 }
-// >>>>>>> 8739aa2b5d9d5d352f38b8b959081b205519a603
-//NavBar
 
+//NavBar
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
 }
 
 li {
-  float: left;
+  float: right;
 }
 
 li a {
   display: block;
-  color: white;
+  color: whitesmoke;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-
 li a:hover {
-  background-color: #111;
+  color: navajowhite;
+text-decoration: line-through;}
+
+//HEADER ONE STYLING
+
+
+
+//footer
+
+footer{
+  padding-top: 10px;
+  text-align: center;
 }
+
+//LATEST
+
