@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "gulp-template-for-html-css-sass-js",
   "version": "4.0.0",
   "description": "An automation template for HTML, CSS, Sass, and JavaScript.",
@@ -49,11 +48,5 @@
     "gulp-imagemin": "^5.0.3",
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.1"
-=======
-  "name": "collaborativeproject",
-  "version": "1.0.0",
-  "dependencies": {
-    
->>>>>>> master
   }
 }

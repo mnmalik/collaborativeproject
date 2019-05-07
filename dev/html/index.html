@@ -1,58 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8" />
     <title>SeaOurFuture</title>
     <link rel="stylesheet" href="styles/main.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <script src="./dist/jquery.ripples.js"></script>
     <script src="processing.js"></script>
-    <link
-            href="https://fonts.googleapis.com/css?family=Open+Sans"
-            rel="stylesheet"
-    />
-</head>
+  </head>
 
-
-<body>
-<header><img src="./img/Untitled-1.png" alt="logo" class="logo" /></header>
-<!-- Background Video Settings -->
-<div class="video-background">
-    <div class="video-foreground">
+  <body>
+    <header><img src="./img/Untitled-1.png" alt="logo" class="logo" /></header>
+    <!-- Background Video Settings -->
+    <div class="video-background">
+      <div class="video-foreground">
         <iframe
-                src="https://youtube.com/embed/ArGfDo1xQuM?autoplay=1&controls=0&showinfo=0&autohide=1&mute=1"
+          src="https://youtube.com/embed/ArGfDo1xQuM?autoplay=1&controls=0&showinfo=0&autohide=1&mute=1"
         >
         </iframe>
+      </div>
     </div>
-</div>
-<!-- NAVIGATION BAR -->
-<ul>
-    <li><a href="#Home" onclick="play()"> Home</a></li>
-    <li><a href="#SavetheOceans" onclick="play()"> Information</a></li>
-    <li><a href="#statistics" onclick="play()"> Statistics</a></li>
-    <li>
+    <!-- NAVIGATION BAR -->
+    <ul>
+      <li><a href="#Home" onclick="play()"> Home</a></li>
+      <li><a href="#SavetheOceans" onclick="play()"> Information</a></li>
+      <li><a href="#statistics" onclick="play()"> Statistics</a></li>
+      <li>
         <a href="#whatyoucandotohelp" onclick="play()"> How You Can Help</a>
-    </li>
-    <li><a href="#thegame" onclick="play()"> The Game</a></li>
-    <li><a href="#organizations" onclick="play()"> Donate</a></li>
-</ul>
+      </li>
+      <li><a href="#thegame" onclick="play()"> The Game</a></li>
+      <li><a href="#organizations" onclick="play()"> Donate</a></li>
+    </ul>
 
+    <!-- SECTION ONE -->
+    <div id="page1">
+      <a id="SavetheOceans" class="smooth"></a>
 
-<!-- SECTION ONE -->
-<div id="page1">
-    <a id="SavetheOceans" class="smooth"></a>
-
-
-    <h1>Help Save Our Oceans</h1>
-    <p>
+      <h1>Help Save Our Oceans</h1>
+      <p>
         Ocean Pollution is a serious issue that is affecting our beaches, our
         oceans, ocean dwellers worldwide, and our own health. The Majority of
         these pollutants come from human activity on land and it’s our job to do
         something about it.
-    </p>
-    <h2>Types of Pollution</h2>
-    <h3>Chemical Pollution</h3>
-    <p>
+      </p>
+      <h2>Types of Pollution</h2>
+      <h3>Chemical Pollution</h3>
+      <p>
         The majority of pollutants going into the ocean come from activities on
         land. Natural processes and human activities along the coastlines and
         far inland affect the health of our ocean. One of the biggest sources is
@@ -75,9 +68,9 @@
         use hazardous technologies. Chemical dispersants used in the largest
         spill response efforts—1.8 million gallons were released into the Gulf
         after the BP disaster—are dangerous pollutants themselves.
-    </p>
-    <h3>Ocean Acidification</h3>
-    <p>
+      </p>
+      <h3>Ocean Acidification</h3>
+      <p>
         Today’s seas absorb as much as a quarter of all man-made carbon
         emissions, which changes the pH of surface waters and leads to
         acidification. Ocean acidification causes changes to carbonate levels
@@ -87,11 +80,10 @@
         well. The billion-dollar American shellfish industry helps support many
         coastal communities but has lost millions of dollars as a result of
         pollution resulting in the loss of thousands of jobs
-    </p>
+      </p>
 
-
-    <h3>Trash in the Ocean</h3>
-    <p>
+      <h3>Trash in the Ocean</h3>
+      <p>
         The majority of the garbage that enters the ocean each year is
         plastic—and here to stay. That’s because unlike other trash, the
         single-use grocery bags, water bottles, drinking straws, and yogurt
@@ -107,11 +99,10 @@
         sewage overflow from water treatment systems, and stormwater and
         agricultural runoff add other forms of marine-poisoning pollutants to
         the toxic brew.
-    </p>
+      </p>
 
-
-    <h3>Ocean Noise</h3>
-    <p>
+      <h3>Ocean Noise</h3>
+      <p>
         Sound waves travel farther and faster in the sea’s dark depths than they
         do in the air, and many marine mammals like whales and dolphins, in
         addition to fish and other sea creatures, rely on communication by sound
@@ -127,59 +118,55 @@
         ecosystems. The underwater racket that results creates a kind of “smog”
         that reaches nearly every corner of the ocean and shrinks the sensory
         range of marine wildlife.
-    </p>
+      </p>
 
+      <h1>What really happens to plastic when you throw it away</h1>
+      <iframe
+        width="800"
+        height="400"
+        src="https://www.youtube.com/embed/_6xlNyWPpB8"
+      ></iframe>
+    </div>
 
-    <h1>What really happens to plastic when you throw it away</h1>
-    <iframe
-            width="800"
-            height="400"
-            src="https://www.youtube.com/embed/_6xlNyWPpB8"
-    ></iframe>
-</div>
-
-
-<!-- frameborder="0" -->
-<!--
-  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
--->
-<!-- allowfullscreen -->
-<!-- PAGE 2 -->
-<div id="page2">
-    <a id="statistics" class="smooth"></a>
-    <h1>The Statistics Behind Ocean Pollution</h1>
-    <!-- SlideShow -->
-    <div class="slideshow-container">
+    <!-- frameborder="0" -->
+    <!--
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    -->
+    <!-- allowfullscreen -->
+    <!-- PAGE 2 -->
+    <div id="page2">
+      <a id="statistics" class="smooth"></a>
+      <h1>The Statistics Behind Ocean Pollution</h1>
+      <!-- SlideShow -->
+      <div class="slideshow-container">
         <a id="home"></a>
         <div class="mySlides fade">
-            <div class="numbertext"></div>
-            <img src="image1.png" alt="image1" style="width:100%" />
-            <div class="text"></div>
+          <div class="numbertext"></div>
+          <img src="image1.png" alt="image1" style="width:100%" />
+          <div class="text"></div>
         </div>
         <div class="mySlides fade">
-            <div class="numbertext"></div>
-            <img src="image7.jpg" alt="image7" style="width:100%" />
-            <div class="text"></div>
+          <div class="numbertext"></div>
+          <img src="image7.jpg" alt="image7" style="width:100%" />
+          <div class="text"></div>
         </div>
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-    <br />
+      </div>
+      <br />
 
-
-    <div style="text-align:center">
+      <div style="text-align:center">
         <span class="dot" onclick="currentSlide(1)"></span>
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
     </div>
-</div>
 
-
-<!-- PAGE 3 -->
-<div id="page3">
-    <a id="whatyoucandotohelp" class="smooth"></a>
-    <h1>What You Can Do To Help</h1>
-    <p>
+    <!-- PAGE 3 -->
+    <div id="page3">
+      <a id="whatyoucandotohelp" class="smooth"></a>
+      <h1>What You Can Do To Help</h1>
+      <p>
         The fate of our seas is not only up to the government or industry. Our
         individual, daily actions matter, too. You can start by reducing water
         pollution and runoff at home, being more mindful of your plastic
@@ -187,78 +174,76 @@
         also support the work of NRDC and other environmental advocacy groups as
         well as other businesses and organizations that work to preserve our
         coasts and waters.
-    </p>
-    <p>
+      </p>
+      <p>
         Keep trash and chemicals out of storm drains, including pet waste. Storm
         water flows into the sea, carrying pollutants which can lead to beach
         closures.
-    </p>
-    <p>
+      </p>
+      <p>
         Plant a native or drought-tolerant plant garden. Native and
         drought-tolerant plants can help you reduce the use of water and
         fertilizers.
-    </p>
-    <p>
+      </p>
+      <p>
         Plant an organic garden. Some chemical fertilizers and pesticides from
         lawns and gardens can wash into the ocean and contribute to water
         quality issues.
-    </p>
-    <p>
+      </p>
+      <p>
         Make your own mulch. Compost and use organic fertilizers only when
         needed.
-    </p>
-    <p>
+      </p>
+      <p>
         Recycle used motor oil. Don’t let motor oil spill on the ground because
         rain will wash it into the storm water drains, and from there out to the
         ocean, where it can harm or kill marine life. Find an oil-recycling
         center near you.
-    </p>
-    <p>
+      </p>
+      <p>
         Dispose of household cleaners properly. Household cleaning products,
         paint, pesticides, fluorescent light bulbs, and batteries pose a threat
         to water quality. Find more information about free collection centers.
-    </p>
-    <p>
+      </p>
+      <p>
         Check the labels of the personal care products. Including face and body
         wash, toothpaste and more, and stop using products containing
         polyethylene or polypropylene microbeads. #BanTheBead
-    </p>
-</div>
-<!-- PAGE 4 -->
-<div id="page4">
-    <a id="thegame" class="smooth"></a>
-    <h1>Can You Help Our Oceans: The Game</h1>
-    <canvas data-processing-sources="turtle.pde" id="thegamecanvas"></canvas>
-</div>
-<!-- FOOTER IF WANT TO ADD IT -->
-<footer>
-    <a id="organizations" class="smooth" style="width:100%"></a>
-    <h2 style="width:100%">
-        Donate to Organizations That Support Our Cause:
-    </h2>
-    <ul>
+      </p>
+    </div>
+    <!-- PAGE 4 -->
+    <div id="page4">
+      <a id="thegame" class="smooth"></a>
+      <h1>Can You Help Our Oceans: The Game</h1>
+      <canvas data-processing-sources="turtle.pde"></canvas>
+    </div>
+    <!-- FOOTER IF WANT TO ADD IT -->
+    <footer>
+      <a id="organizations" class="smooth"></a>
+      <h2>Donate to Organizations That Support Our Cause:</h2>
+      <ul>
         <li><a href="https://oceanconservancy.org/"> Ocean Conservancy</a></li>
         <li><a href="https://ocean.si.edu/"> Smithsonian Ocean</a></li>
         <li><a href="https://plasticoceans.org/donate/"> Plastic Oceans</a></li>
         <li>
-            <a href="https://www.theoceancleanup.com/support/">
-                The Ocean Cleanup</a
-            >
+          <a href="https://www.theoceancleanup.com/support/">
+            The Ocean Cleanup</a
+          >
         </li>
         <li><a href="https://oceana.org/"> Oceana</a></li>
         <li>
-            <a href="https://marine-conservation.org/support-us/">
-                Marine Conservation</a
-            >
+          <a href="https://marine-conservation.org/support-us/">
+            Marine Conservation</a
+          >
         </li>
         <li>
-            <a href="https://www.oceanfdn.org/donate/support-ocean-foundation">
-                Ocean Foundation</a
-            >
+          <a href="https://www.oceanfdn.org/donate/support-ocean-foundation">
+            Ocean Foundation</a
+          >
         </li>
         <li><a href="https://www.opsociety.org/">Oceanic Society</a></li>
-    </ul>
-</footer>
-<script src="scripts/app.js" defer></script>
-</body>
+      </ul>
+    </footer>
+    <script src="scripts/app.js" defer></script>
+  </body>
 </html>
