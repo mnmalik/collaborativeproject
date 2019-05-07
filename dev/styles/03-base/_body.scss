@@ -4,27 +4,26 @@ $color--border: lighten($color--main, 20%);
 body {
   padding: 10px;
   div {
-   // border: 1px solid $color--border;
+    // border: 1px solid $color--border;
     color: black;
-    background-color: white; opacity: 0.9;
+    background-color: white;
+    opacity: 0.9;
     padding: 15px;
     text-align: center;
     line-height: 1.9;
   }
-h1{
-  font-family: "American Typewriter";
-text
-  padding-top: 10px;
-  text-align: center;
-}
-  h2{
+  h1 {
+    font-family: "American Typewriter";
+    textpadding-top: 10px;
+    text-align: center;
+  }
+  h2 {
     color: white;
   }
 
-  p{
+  p {
     text-decoration-color: black;
   }
-
 }
 //Video Settings
 * {
@@ -40,7 +39,6 @@ text
   z-index: -99;
 }
 .video-foreground,
-
 .video-background iframe {
   position: absolute;
   top: 0;
@@ -79,10 +77,19 @@ text
 
 //Styling for Slideshow
 
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
-img {vertical-align: middle;}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+.mySlides {
+  display: none;
+}
+img {
+  vertical-align: middle;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -92,7 +99,8 @@ img {vertical-align: middle;}
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -114,8 +122,9 @@ img {vertical-align: middle;}
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
@@ -150,7 +159,8 @@ img {vertical-align: middle;}
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
 
@@ -163,18 +173,30 @@ img {vertical-align: middle;}
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
 }
 
 //NavBar
@@ -198,18 +220,31 @@ li a {
 }
 li a:hover {
   color: navajowhite;
-text-decoration: line-through;}
+  text-decoration: line-through;
+}
 
 //HEADER ONE STYLING
 
-
-
 //footer
 
-footer{
+footer {
   padding-top: 10px;
   text-align: center;
 }
 
+html {
+  height: 100%;
+}
 //LATEST
+//LOGO
+.logo {
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  max-width: 900px;
 
+  align-content: center !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
