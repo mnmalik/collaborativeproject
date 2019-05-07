@@ -7,6 +7,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <script src="./dist/jquery.ripples.js"></script>
     <script src="processing.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -215,12 +219,14 @@
     <div id="page4">
       <a id="thegame" class="smooth"></a>
       <h1>Can You Help Our Oceans: The Game</h1>
-      <canvas data-processing-sources="turtle.pde"></canvas>
+      <canvas data-processing-sources="turtle.pde" id="thegamecanvas"></canvas>
     </div>
     <!-- FOOTER IF WANT TO ADD IT -->
     <footer>
-      <a id="organizations" class="smooth"></a>
-      <h2>Donate to Organizations That Support Our Cause:</h2>
+      <a id="organizations" class="smooth" style="width:100%"></a>
+      <h2 style="width:100%">
+        Donate to Organizations That Support Our Cause:
+      </h2>
       <ul>
         <li><a href="https://oceanconservancy.org/"> Ocean Conservancy</a></li>
         <li><a href="https://ocean.si.edu/"> Smithsonian Ocean</a></li>

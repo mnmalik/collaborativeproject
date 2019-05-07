@@ -1,5 +1,5 @@
-$color--main: #06f;
-$color--border: lighten($color--main, 20%);
+// $color--main: #06f;
+// $color--border: lighten($color--main, 20%);
 
 body {
   padding: 10px;
@@ -9,7 +9,7 @@ body {
     background-color: white;
     opacity: 0.9;
     padding: 5%;
-    text-align: center;
+
     line-height: 1.9;
   }
   h1 {
@@ -81,8 +81,9 @@ body {
   box-sizing: border-box;
 }
 body {
-  font-family: Verdana, sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 0;
+  padding-top: 1%;
 }
 .mySlides {
   display: none;
@@ -91,6 +92,10 @@ img {
   vertical-align: middle;
 }
 
+p {
+  font-family: "Open Sans", sans-serif;
+  padding-top: 1%;
+}
 /* Slideshow container */
 .slideshow-container {
   max-width: 600px;
@@ -242,11 +247,14 @@ h2,
 h3,
 h4,
 h5,
+h1,
 a {
   background-color: orange !important;
   margin: 0;
   padding: 0;
   width: 100%;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
 }
 //HEADER ONE STYLING
 
@@ -260,6 +268,7 @@ footer {
 }
 
 html {
+  font-family: "Open Sans", sans-serif !important;
   height: 100%;
   width: 100%;
 }
@@ -278,4 +287,18 @@ html {
   align-items: center !important;
   justify-content: center !important;
   text-align: center !important;
+}
+
+#thegamecanvas {
+  height: auto;
+  position: relative;
+  align-content: center !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+
+  width: 100%;
+  max-width: 600px;
+  padding-top: 1% !important;
+  //
 }
