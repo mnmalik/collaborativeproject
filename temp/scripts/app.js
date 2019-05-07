@@ -92,3 +92,8 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active";
 }
+
+function play() {
+  var audio = new Audio("./audio/bubble.wav");
+  audio.play();
+}
